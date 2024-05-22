@@ -52,5 +52,19 @@ let klo = ['one','two','three','four','five'];
 console.log(klo);
 klo.shift();
 console.log(klo);
+//unshift() add value like push() method and add it to the right 
+let lp  = ['one ','two','three','four'];
+lp.unshift('six');
+console.log(lp);
+lp.push('nine');
+console.log(lp);
 
-let 
+//so shift() method remove element from left and pop ( ) method remove array element from most right value and unshift() add element in left and push() add element from right to the array 
+
+//lets ;earn conactetion
+let boys =[ 'mohib','khan','mahsud','me'];
+let girls =['jk','lo','kp ','mo'];
+let gays =['hehe','ueue','ieioei','ekjeje']
+let bh = boys.concat(girls,gays,'this is string pass as argumnet',909909);
+// boys.concat(girls);
+console.log(bh);
