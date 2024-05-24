@@ -68,3 +68,7 @@ let gays =['hehe','ueue','ieioei','ekjeje']
 let bh = boys.concat(girls,gays,'this is string pass as argumnet',909909);
 // boys.concat(girls);
 console.log(bh);
+
+// what if we wan to add array to convert it 
+let mydata =['this ','is ','my ','name ','and ','I ','worked','here'];
+document.getElementById('demo3').innerHTML= mydata;
