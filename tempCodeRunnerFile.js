@@ -1,3 +1,2 @@
-let mohib2 =['name','age','reg','number','sem','sim','polls'];
-let chk2 = mohib2.findLast();
-console.log(chk2);
+let value1 = ['mohib','khan','mahsud','age'];
+console.log(value1.includes('min'));
